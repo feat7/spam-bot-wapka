@@ -1,17 +1,19 @@
 <html>
 <head>
-<link rel="stylesheet" href="style.css" type="text/css"/><title>Freshmaza.eu.pn</title></head><body><?php
+<link rel="stylesheet" href="style.css" type="text/css"/><title>Spam Bot</title></head><body><?php
 $thema=$_GET['thema'];
 for($i=1;$i<5;$i++)
 {
 $v=$i;
 if($v%2==0)
-{ $u="mobi54";
+{ $u="user 1";
 }
-else { $u="mobi78";
+else { $u="user 2";
 }
+  $pass = "your password";
+  $domain = "http://yoursite.com";
 
-$url="http://mobikind.vacau.com/spam/spam.php?user=$u&pass=zenetze&thema=$thema";
+$url="$domain/spam/spam.php?user=$u&pass=$pass&thema=$thema";
 include 'curl.php';
 
 $file=str_replace('wapka_forum','http://wapka.mobi/wapka_forum',$file);
