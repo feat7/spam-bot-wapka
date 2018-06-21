@@ -1,0 +1,17 @@
+body {
+margin: 0px;
+padding: 0px;
+background-color: #fff; }
+#title {
+background-color: #557D7E;
+padding:4px 4px 4px 4px;
+
+}
+.subtitle { color: #fafafa;
+font-weight: bold; }
+.catRow {
+padding: 3px 3px 3px 3px;
+border-bottom: 1px LightGray dashed;
+}
+a { padding: 2px 2px 2px 2px;
+color: SkyBlue; }
